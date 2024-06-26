@@ -1,0 +1,12 @@
+{
+  "name": "drone-iot-water-monitoring",
+  "version": "1.0.0",
+  "main": "update-trello.js",
+  "scripts": {
+    "update-trello": "node update-trello.js"
+  },
+  "dependencies": {
+    "@octokit/rest": "^18.0.0",
+    "node-fetch": "^2.6.1"
+  }
+}
