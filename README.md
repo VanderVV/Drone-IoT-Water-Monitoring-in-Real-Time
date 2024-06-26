@@ -49,4 +49,5 @@ Many river sections remain unmonitored due to their inaccessibility, leading to 
 Manual sampling in dangerous or hard-to-reach locations poses significant risks to personnel involved in water quality monitoring
 
 
-# This project will ensure that we have water quality while minimizing the risk to endanger people 
+This project will ensure that we have water quality while minimizing the risk to endanger people 
+
