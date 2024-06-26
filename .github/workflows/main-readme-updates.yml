@@ -18,7 +18,7 @@ jobs:
         node-version: '14'
 
     - name: Install dependencies
-      run: npm install -g @octokit/rest
+      run: npm install -g @octokit/rest node-fetch
 
     - name: Update README on Trello
       run: |
@@ -27,5 +27,4 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         TRELLO_API_KEY: ${{ secrets.TRELLO_API_KEY }}
         TRELLO_TOKEN: ${{ secrets.TRELLO_TOKEN }}
-        TRELLO_BOARD_ID: ${{ secrets.TRELLO_BOARD_ID }}
         TRELLO_CARD_ID: ${{ secrets.TRELLO_CARD_ID }}
